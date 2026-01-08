@@ -1,0 +1,177 @@
+body {
+    background-color: #1C1C1C;
+}
+
+.note-main-container {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    vertical-align: middle;
+    gap: 8px;
+    padding: 0;
+}
+
+.note-wrapper {
+    max-width: calc(20% - 8px);
+    width: calc(20% - 8px);
+    background-color: rgba(255, 235, 57, 0.877);
+}
+
+.note-title {
+    background-color: goldenrod;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.note-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    line-height: 130%;
+    letter-spacing: 0px;
+    margin: 0px;
+}
+
+.note-description {
+    padding: 8px 10px;
+}
+
+.note-description p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: math;
+    font-style: normal;
+    line-height: 130%;
+    letter-spacing: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+.edit-delete-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    gap: 12px;
+}
+
+.delete {
+    cursor: pointer;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.edit {
+    transform: rotate(135deg);
+    cursor: pointer;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.edit-note-btn p {
+    transform: rotate(135deg);
+    margin: 0;
+}
+
+.edit-note-btn {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    gap: 6px;
+    width: 100%;
+    padding: 14px;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-top: 15px;
+}
+
+.note-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.note-form-container form {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    gap: 30px;
+}
+
+.add-note-btn {
+    width: 100%;
+    padding: 14px;
+    color: #FFFFFF;
+    border: 0;
+    background-color: goldenrod;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 100%;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+
+.note-title-wrapper,
+.note-description-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    vertical-align: middle;
+    gap: 10px;
+}
+
+.note-title-wrapper input,
+.note-description-wrapper input {
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: math;
+    line-height: 100%;
+    letter-spacing: 0px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.note-title-wrapper label,
+.note-description-wrapper label {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.note-form-wrapper {
+    background-color: #f9f9f9;
+    padding: 32px;
+    border-radius: 24px;
+}
