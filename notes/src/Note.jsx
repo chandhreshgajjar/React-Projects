@@ -75,12 +75,12 @@ function Note() {
                     <form className="note-form" onSubmit={handleNoteForm}>
                         <div className="note-title-wrapper">
                             <label>Title:</label>
-                            <input type="text" value={noteTitle} onChange={(event) => setNoteTitle(event.target.value)} placeholder='Enter Note Title' />
+                            <input type="text" onChange={(event) => setNoteTitle(event.target.value)} placeholder='Enter Note Title' />
                         </div>
 
                         <div className="note-description-wrapper">
                             <label>Description:</label>
-                            <input type="text" value={noteDesc} onChange={(event) => setNoteDesc(event.target.value)} placeholder='Enter Note Description' />
+                            <input type="text" onChange={(event) => setNoteDesc(event.target.value)} placeholder='Enter Note Description' />
                         </div>
 
                         <button className="add-note-btn">+ Add Note</button>
